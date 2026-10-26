@@ -1,0 +1,25 @@
+{
+    "name": "task-kanban",
+    "private": true,
+    "version": "1.0.0",
+    "type": "module",
+    "description": "任务管理看板 - Vue3 + Vite + localStorage",
+    "scripts": {
+        "dev": "vite --host 0.0.0.0 --port 8085",
+        "build": "vite build",
+        "preview": "vite preview --port 8085",
+        "test": "vitest run",
+        "test:watch": "vitest"
+    },
+    "dependencies": {
+        "vue": "^3.3.0"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-vue": "^4.4.0",
+        "@vue/test-utils": "^2.4.0",
+        "jsdom": "^21.1.2",
+        "typescript": "^5.2.2",
+        "vite": "^4.5.0",
+        "vitest": "^0.34.6"
+    }
+}
