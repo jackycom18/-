@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* ── Mobile rewrite design tokens ─────────────────────────────────────────────
  * Scoped to .m-root (the MobileShell wrapper) so the mobile design system
  * never leaks into desktop chrome. Values are the mobile design ground truth;
